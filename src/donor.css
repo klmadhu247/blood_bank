@@ -1,0 +1,32 @@
+label {
+    
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .form_Style
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 470px;
+    border: 1px  ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+    margin: auto;
+   padding: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select[type="select"],
+input[type="date"],input[type='submit'] {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.8;
+  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+}
